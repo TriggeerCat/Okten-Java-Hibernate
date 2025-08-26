@@ -1,0 +1,15 @@
+використовуючи hibernate:
+
+– створити табличку Word (id, value)
+– наповнити її
+– дістати всі value слів та запакувати в List .
+
+
+
+Створити клас Car з полями:
+id
+model,
+Type (ENUM)
+power,
+price,
+year.

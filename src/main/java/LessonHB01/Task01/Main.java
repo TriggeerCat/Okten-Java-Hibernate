@@ -1,4 +1,4 @@
-package LessonHB01;
+package LessonHB01.Task01;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -11,10 +11,6 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        // використовуючи hibernate:
-        // – створити табличку Word (id, value)
-        // – наповнити її
-        // – дістати всі value слів та запакувати в List .
         StandardServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
                 .configure("hibernate.cfg.xml")
                 .build();
